@@ -1,6 +1,6 @@
 {
-  "version": "2.17.1",
+  "version": "2.18.0",
   "date": "2026-10-17",
-  "notes": "Console: file per EasyPTT Configuratore (configurazione delle radio via USB dal Mac, anche senza touch né fotocamera).\n\n2.17.0: controllo incrociato tra server, avvisi per le radio con problemi, demo con radio simulate.",
-  "file": "pacchetti/easyptt-talk-server-2.17.1-linux.tar.gz"
+  "notes": "Console: configurazione delle radio via USB direttamente dal browser (Chrome o Edge): app, permessi, batteria, tasti e collegamento al server, anche per radio senza touch né fotocamera.\n\n2.17.1: file per EasyPTT Configuratore (Mac).",
+  "file": "pacchetti/easyptt-talk-server-2.18.0-linux.tar.gz"
 }
