@@ -1,6 +1,6 @@
 {
- "version": "2.14.1",
- "date": "2026-10-17",
- "notes": "Correzione: dopo un aggiornamento il browser carica subito icone, stili e pagine nuove (prima poteva tenere per un giorno quelli vecchi, ad esempio i marker della mappa).\n\nNuova interfaccia di centrale operativa, console di gestione e app (Android 1.19.0, iOS 1.5.0).\n\n- Centrale: allarmi in fascia (anche più insieme), canali e radio a sinistra, pannello della radio selezionata a destra, barra radio in basso con canale di trasmissione, stato e PTT; Messaggi, Missioni, Ronde, Registro e Zone in pannelli dedicati.\n- Console: organizzazioni e amministrazione a sinistra, tabella utenti con ricerca, filtri e menu di riga, schede Radio e canali / Mappa / Licenze, notifiche.\n- Videochiamata dalla radio alla centrale (licenza video): video della radio e voce come al telefono, risponde il primo operatore libero.\n- Aggiornamento del server dalla console con pacchetti firmati, backup dei dati prima dell'aggiornamento e ritorno automatico alla versione precedente se la nuova non parte.",
- "file": "pacchetti/easyptt-talk-server-2.14.1-linux.tar.gz"
+  "version": "2.14.2",
+  "date": "2026-10-17",
+  "notes": "Installazione automatica di notte; legende di Traffico e Meteo separate; pagine sempre aggiornate dopo un aggiornamento; batteria delle radio iOS in centrale.",
+  "file": "pacchetti/easyptt-talk-server-2.14.2-linux.tar.gz"
 }
