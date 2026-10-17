@@ -1,6 +1,6 @@
 {
-  "version": "2.15.0",
+  "version": "2.16.0",
   "date": "2026-10-17",
-  "notes": "Gruppi temporanei dalla centrale: radio scelte o dentro un cerchio disegnato sulla mappa, con durata e ritorno automatico sul canale di prima.\n\n2.14.5: console solo per la gestione.\n2.14.4: percorsi GPS conservati 30 giorni ed esportazione KMZ, KML, GPX, CSV.",
-  "file": "pacchetti/easyptt-talk-server-2.15.0-linux.tar.gz"
+  "notes": "Due livelli di licenza per radio: Gratuita (solo voce sul primo canale) e Licenza Base (più canali, SOS, riascolto). All'aggiornamento ogni radio esistente riceve la Licenza Base: nessuna perde funzioni. App Android 1.20.0 e iOS 1.6.0.\n\n2.15.0: gruppi temporanei dalla centrale.",
+  "file": "pacchetti/easyptt-talk-server-2.16.0-linux.tar.gz"
 }
