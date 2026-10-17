@@ -1,6 +1,6 @@
 {
-  "version": "2.14.3",
+  "version": "2.14.4",
   "date": "2026-10-17",
-  "notes": "Videochiamata in arrivo in centrale in un solo riquadro: il video della radio si apre da solo con Rispondi e Rifiuta.\n\n2.14.2: installazione automatica di notte; legende di Traffico e Meteo separate; pagine sempre aggiornate dopo un aggiornamento; batteria delle radio iOS in centrale.",
-  "file": "pacchetti/easyptt-talk-server-2.14.3-linux.tar.gz"
+  "notes": "Percorsi GPS delle radio conservati 30 giorni: in centrale (pulsante Percorsi GPS accanto all'elenco Radio) si vedono sulla mappa o si esportano in KMZ, KML, GPX o CSV.\n\n2.14.3: videochiamata in arrivo in centrale in un solo riquadro, con Rispondi e Rifiuta nel video.",
+  "file": "pacchetti/easyptt-talk-server-2.14.4-linux.tar.gz"
 }
