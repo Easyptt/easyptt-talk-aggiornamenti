@@ -1,6 +1,6 @@
 {
-  "version": "2.20.0",
-  "date": "2026-10-18",
-  "notes": "Revisione generale: salvataggi dei percorsi e registrazioni senza fermare la voce, esportazioni pesanti fuori dal blocco, radio bloccata piu' robusta, sessioni chiuse al cambio password, centrale piu' leggera con molte radio, correzioni di sicurezza. App Android 1.23.0.\n\n2.19.0: radio persa o rubata.",
-  "file": "pacchetti/easyptt-talk-server-2.20.0-linux.tar.gz"
+  "version": "2.20.1",
+  "date": "2026-10-19",
+  "notes": "Configurazione via USB dalla console: con la radio occupata si riprova da soli e si spiega cosa chiudere.\n\n2.20.0: revisione generale.",
+  "file": "pacchetti/easyptt-talk-server-2.20.1-linux.tar.gz"
 }
