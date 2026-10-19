@@ -1,6 +1,6 @@
 {
-  "version": "2.23.0",
+  "version": "2.24.0",
   "date": "2026-10-19",
-  "notes": "Configura via USB: la radio diventa gestita dall'app e gli aggiornamenti da remoto si installano senza la schermata di conferma (app 1.24.0).\n\n2.22.0: riascolto attivabile per radio e tasto per riascoltare l'ultima chiamata.",
-  "file": "pacchetti/easyptt-talk-server-2.23.0-linux.tar.gz"
+  "notes": "Cifratura end-to-end della voce (AES-256) per organizzazione: la chiave nasce nella console e il server non la vede mai. Richiede l'app 1.25.0 (iOS 1.7.0).\n\n2.23.0: radio gestita via USB, aggiornamenti senza conferma.",
+  "file": "pacchetti/easyptt-talk-server-2.24.0-linux.tar.gz"
 }
