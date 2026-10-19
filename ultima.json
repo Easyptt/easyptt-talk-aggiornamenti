@@ -1,6 +1,6 @@
 {
-  "version": "2.22.0",
+  "version": "2.23.0",
   "date": "2026-10-19",
-  "notes": "Riascolto delle chiamate attivabile o disattivabile per ogni radio. Tasto della radio per riascoltare l'ultima chiamata (app 1.23.9).\n\n2.21.0: missioni con orario di partenza programmato.",
-  "file": "pacchetti/easyptt-talk-server-2.22.0-linux.tar.gz"
+  "notes": "Configura via USB: la radio diventa gestita dall'app e gli aggiornamenti da remoto si installano senza la schermata di conferma (app 1.24.0).\n\n2.22.0: riascolto attivabile per radio e tasto per riascoltare l'ultima chiamata.",
+  "file": "pacchetti/easyptt-talk-server-2.23.0-linux.tar.gz"
 }
