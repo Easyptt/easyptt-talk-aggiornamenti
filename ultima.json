@@ -1,6 +1,6 @@
 {
-  "version": "2.20.4",
+  "version": "2.21.0",
   "date": "2026-10-19",
-  "notes": "Configura via USB: sempre l'app appena pubblicata, e mai sopra una versione piu' nuova gia' presente sulla radio.\n\n2.20.3: aggiornamenti da remoto senza la domanda sulle origini sconosciute.",
-  "file": "pacchetti/easyptt-talk-server-2.20.4-linux.tar.gz"
+  "notes": "Missioni con orario di partenza: si creano subito e partono all'ora scelta (radio avvisate solo alla partenza).\n\n2.20.4: Configura via USB sempre con l'app appena pubblicata.",
+  "file": "pacchetti/easyptt-talk-server-2.21.0-linux.tar.gz"
 }
