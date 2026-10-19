@@ -1,6 +1,6 @@
 {
-  "version": "2.21.0",
+  "version": "2.22.0",
   "date": "2026-10-19",
-  "notes": "Missioni con orario di partenza: si creano subito e partono all'ora scelta (radio avvisate solo alla partenza).\n\n2.20.4: Configura via USB sempre con l'app appena pubblicata.",
-  "file": "pacchetti/easyptt-talk-server-2.21.0-linux.tar.gz"
+  "notes": "Riascolto delle chiamate attivabile o disattivabile per ogni radio. Tasto della radio per riascoltare l'ultima chiamata (app 1.23.9).\n\n2.21.0: missioni con orario di partenza programmato.",
+  "file": "pacchetti/easyptt-talk-server-2.22.0-linux.tar.gz"
 }
