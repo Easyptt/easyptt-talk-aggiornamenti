@@ -1,6 +1,6 @@
 {
-  "version": "2.25.0",
+  "version": "2.26.0",
   "date": "2026-10-20",
-  "notes": "Sicurezza: cifratura end-to-end v2 (chiave per trasmissione, firma di chi parla, consegna della chiave dalla console senza QR), controlli di accesso rafforzati, segreti del server cifrati, password e gettoni più robusti, registro di sicurezza ancorato su Telegram, CSP con nonce. Richiede l'app 1.26.0 (iOS 1.8.0). Gli amministratori non entrano più dall'app radio.\n\n2.24.0: cifratura end-to-end della voce per organizzazione.",
-  "file": "pacchetti/easyptt-talk-server-2.25.0-linux.tar.gz"
+  "notes": "Voce Opus: 20/14/9 kbit/s invece di 65/49/33 a parità di qualità, molto più robusta su 4G debole; chi ha l'app precedente riceve la voce convertita dal server. Copertura dei pacchetti in ritardo. Entrate e uscite dalle zone nell'elenco Avvisi della centrale. Richiede l'app 1.27.0 (iOS 1.9.0) per parlare in Opus.\n\n2.25.0: sicurezza (cifratura end-to-end v2, accessi, segreti, registro).",
+  "file": "pacchetti/easyptt-talk-server-2.26.0-linux.tar.gz"
 }
