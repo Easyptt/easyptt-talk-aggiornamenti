@@ -1,6 +1,6 @@
 {
-  "version": "2.24.0",
-  "date": "2026-10-19",
-  "notes": "Cifratura end-to-end della voce (AES-256) per organizzazione: la chiave nasce nella console e il server non la vede mai. Richiede l'app 1.25.0 (iOS 1.7.0).\n\n2.23.0: radio gestita via USB, aggiornamenti senza conferma.",
-  "file": "pacchetti/easyptt-talk-server-2.24.0-linux.tar.gz"
+  "version": "2.25.0",
+  "date": "2026-10-20",
+  "notes": "Sicurezza: cifratura end-to-end v2 (chiave per trasmissione, firma di chi parla, consegna della chiave dalla console senza QR), controlli di accesso rafforzati, segreti del server cifrati, password e gettoni più robusti, registro di sicurezza ancorato su Telegram, CSP con nonce. Richiede l'app 1.26.0 (iOS 1.8.0). Gli amministratori non entrano più dall'app radio.\n\n2.24.0: cifratura end-to-end della voce per organizzazione.",
+  "file": "pacchetti/easyptt-talk-server-2.25.0-linux.tar.gz"
 }
