@@ -1,6 +1,6 @@
 {
-  "version": "2.34.0",
+  "version": "2.34.1",
   "date": "2026-10-22",
-  "notes": "Revisione generale, terzo giro. Allarmi: senza una centrale collegata, le radio che ricevono gli SOS possono prendere in carico e chiudere l'allarme del collega (con la centrale collegata resta alla centrale); su iPhone l'allarme di un collega arriva con notifica e suono anche con l'app chiusa; nuovi motivi Manomissione e Collisione. Radio Hytera: modalita' audio alternativa e volume minimo impostabili dalla console; PTT bloccato con la batteria principale tolta; rotazione automatica del video sulle bodycam; tasti rapidi della radio. Centrale su iPad: microfono chiuso dopo un minuto di inattivita'.",
-  "file": "pacchetti/easyptt-talk-server-2.34.0-linux.tar.gz"
+  "notes": "Centrale: accanto alla batteria di ogni radio un'icona dice se e' sulla mappa (blu: posizione aggiornata; grigia: ultima posizione nota; barrata: GPS attivo ma posizione non ancora ricevuta). Revisione generale, terzo giro. Allarmi: senza una centrale collegata, le radio che ricevono gli SOS possono prendere in carico e chiudere l'allarme del collega (con la centrale collegata resta alla centrale); su iPhone l'allarme di un collega arriva con notifica e suono anche con l'app chiusa; nuovi motivi Manomissione e Collisione. Radio Hytera: modalita' audio alternativa e volume minimo impostabili dalla console; PTT bloccato con la batteria principale tolta; rotazione automatica del video sulle bodycam; tasti rapidi della radio. Centrale su iPad: microfono chiuso dopo un minuto di inattivita'.",
+  "file": "pacchetti/easyptt-talk-server-2.34.1-linux.tar.gz"
 }
