@@ -1,0 +1,33 @@
+name: Modelli visione
+
+# Pubblica come release i modelli per la ricerca a testo libero nel video della centrale EasyPTT Talk
+# (CLIP ViT-B/32 in ONNX quantizzato, licenza MIT di OpenAI, conversione Xenova). I server li scaricano
+# da qui e ne controllano l'impronta SHA-256 (fissata nel programma).
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  modelli:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: scarica e pubblica
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          mkdir -p out
+          get() { curl -fsSL --retry 3 -o "out/$2" "https://huggingface.co/$1"; }
+          R=Xenova/clip-vit-base-patch32/resolve/main
+          get $R/onnx/vision_model_quantized.onnx clip_vision_q.onnx
+          get $R/onnx/text_model_quantized.onnx clip_text_q.onnx
+          get $R/vocab.json clip_vocab.json
+          get $R/merges.txt clip_merges.txt
+          get $R/preprocessor_config.json clip_preprocessor.json
+          curl -fsSL -o out/CLIP_LICENSE.txt https://raw.githubusercontent.com/openai/CLIP/main/LICENSE
+          cd out && sha256sum * | tee SHA256SUMS
+          gh release create visione-clip-1 * -R "$GITHUB_REPOSITORY" -t "Modelli per la ricerca nel video (CLIP ViT-B/32)" -n "CLIP ViT-B/32 di OpenAI (licenza MIT, CLIP_LICENSE.txt), in ONNX quantizzato (conversione Xenova). Usati dalla ricerca a testo libero della centrale EasyPTT Talk."
