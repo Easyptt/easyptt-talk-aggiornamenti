@@ -1,6 +1,6 @@
 {
-  "version": "2.58.27",
+  "version": "2.58.28",
   "date": "2026-11-24",
-  "notes": "Aggiornamento di manutenzione e sicurezza. Nella console, l'elenco delle radio create in massa (CSV) non può più contenere formule che Excel eseguirebbe all'apertura. Le istruzioni di telecamere e sensori consigliano di mettere il codice di accesso nell'intestazione della richiesta, dove l'apparato lo permette. Tolta la grafica di prova di centrale e console, ormai superata dalla nuova disposizione della centrale.",
-  "file": "pacchetti/easyptt-talk-server-2.58.27-linux.tar.gz"
+  "notes": "Ritocchi alla centrale operativa. Nell'allarme, accanto alle radio più vicine, il pulsante ora si chiama \"Manda sul posto\": apre l'intervento verso il punto dell'allarme. Sugli schermi più piccoli, aprendo una sezione (Registro, Messaggi…) la scheda della radio si chiude e la mappa resta libera; resta aperta se la radio è in allarme. Nella barra per parlare niente più scritte doppie o che escono dai pulsanti. Nell'elenco, le radio senza simbolo hanno un pallino pieno del colore del segnaposto. Nel Registro la ricerca non viene più tagliata.",
+  "file": "pacchetti/easyptt-talk-server-2.58.28-linux.tar.gz"
 }
