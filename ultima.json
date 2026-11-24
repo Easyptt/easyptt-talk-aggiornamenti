@@ -1,6 +1,6 @@
 {
-  "version": "2.58.25",
+  "version": "2.58.26",
   "date": "2026-11-24",
-  "notes": "Localizzatori: in centrale si può seguire un mezzo sulla mappa. Nella finestrella del mezzo c'è \"Segui sulla mappa\": la mappa resta centrata su di lui mentre si muove, finché non si sposta la mappa a mano o si preme \"Smetti di seguire\".",
-  "file": "pacchetti/easyptt-talk-server-2.58.25-linux.tar.gz"
+  "notes": "Centrale operativa con una nuova disposizione. Le sezioni (Attività, Messaggi, Registro, Punti, Zone e le altre) sono in una colonna a sinistra: aprendone una, il suo pannello prende il posto dell'elenco delle radio e la mappa resta sempre visibile; \"Radio\" in cima riporta all'elenco. La barra per parlare e la scheda della radio stanno sopra la mappa, che ora occupa tutta l'altezza. Il volume dell'ascolto si regola dall'altoparlante in alto a destra. La scritta \"Connesso\" non c'è più: lo stato del collegamento compare solo quando la centrale non è collegata. Tutti i comandi di prima ci sono ancora.",
+  "file": "pacchetti/easyptt-talk-server-2.58.26-linux.tar.gz"
 }
