@@ -1,6 +1,6 @@
 {
-  "version": "2.58.28",
-  "date": "2026-11-24",
-  "notes": "Ritocchi alla centrale operativa. Nell'allarme, accanto alle radio più vicine, il pulsante ora si chiama \"Manda sul posto\": apre l'intervento verso il punto dell'allarme. Sugli schermi più piccoli, aprendo una sezione (Registro, Messaggi…) la scheda della radio si chiude e la mappa resta libera; resta aperta se la radio è in allarme. Nella barra per parlare niente più scritte doppie o che escono dai pulsanti. Nell'elenco, le radio senza simbolo hanno un pallino pieno del colore del segnaposto. Nel Registro la ricerca non viene più tagliata.",
-  "file": "pacchetti/easyptt-talk-server-2.58.28-linux.tar.gz"
+  "version": "2.58.29",
+  "date": "2026-11-27",
+  "notes": "Insegui: arriva la guida dentro l'app. Con l'app aggiornata, nella barra dell'Insegui c'è il pulsante \"Guida\": sulla mappa compare il percorso fino al collega con il traffico, la prossima svolta con la distanza e le svolte lette a voce; il percorso si ricalcola da solo se si cambia strada o se il collega si sposta. Serve la chiave TomTom già usata per il traffico; senza, il pulsante non compare e resta il navigatore come prima.",
+  "file": "pacchetti/easyptt-talk-server-2.58.29-linux.tar.gz"
 }
