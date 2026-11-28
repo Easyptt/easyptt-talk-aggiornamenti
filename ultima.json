@@ -1,6 +1,6 @@
 {
-  "version": "2.58.29",
-  "date": "2026-11-27",
-  "notes": "Insegui: arriva la guida dentro l'app. Con l'app aggiornata, nella barra dell'Insegui c'è il pulsante \"Guida\": sulla mappa compare il percorso fino al collega con il traffico, la prossima svolta con la distanza e le svolte lette a voce; il percorso si ricalcola da solo se si cambia strada o se il collega si sposta. Serve la chiave TomTom già usata per il traffico; senza, il pulsante non compare e resta il navigatore come prima.",
-  "file": "pacchetti/easyptt-talk-server-2.58.29-linux.tar.gz"
+  "version": "2.58.30",
+  "date": "2026-11-28",
+  "notes": "Nuova funzione \"Non posso parlare\". Quando un operatore viene fermato all'improvviso tiene premuto un secondo il pulsante: la radio diventa muta e vibra soltanto all'arrivo delle chiamate, la centrale riceve subito un avviso scritto e vede \"Non può parlare\" nell'elenco, nella scheda e sulla mappa. Si torna normali premendo il PTT, e all'uscita la radio dice quante chiamate si sono perse. Dopo il tempo scelto in console (di base 15 minuti) la radio chiede se si è ancora occupati: senza risposta l'audio torna e la centrale viene avvisata. Si attiva per ogni radio dalla console, nella scheda della radio; serve l'app aggiornata.",
+  "file": "pacchetti/easyptt-talk-server-2.58.30-linux.tar.gz"
 }
